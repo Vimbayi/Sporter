@@ -1,0 +1,205 @@
+/***************************************
+GENERAL
+***************************************/
+*{list-style: none;
+}
+
+
+a {text-decoration: none;
+  color: orange;}
+
+
+/***************************************
+HEADING nav items
+***************************************/
+
+.logo {
+   float: left;
+   margin: 0 20px;
+   padding: 20px;
+   width: auto;}
+
+.logo img{ width:40%;
+    display:inline-block;}
+
+.logo h3 { font-size:1.2em;
+    color: orange;}
+
+/* nav item */
+  nav {text-align:right;
+    padding: 15px;
+    margin: 20px;}
+
+  nav ul li {display:inline-block;
+    background-color: lightgrey;
+    padding:15px;
+    color: #fff;
+    margin: 10px;
+    width:200px;
+    text-align: center;}
+
+nav a {font-weight: 800;
+    padding: 15px;}
+
+
+/***************************************
+PAGE SPORTER
+***************************************/
+body { font-family: 'Open Sans', sans-serif;}
+
+#paragraph { text-align:center;
+  font-size: 1.5em;
+  padding: 40px 40px;
+  margin: 20px 20px ;
+  width: auto;
+  background-color: #FF6A00;
+  color: #fff;
+  clear: both;
+}
+
+.vision img {  margin: auto;
+  padding: 50px;
+  width:100%;}
+
+#wrapper {  max-width: 1200px;
+  margin: 0 auto;
+  background: lightgrey;
+  padding: 0;}
+
+/***************************************
+footer
+***************************************/
+footer {background-color: #010236;
+font-size:1em;
+text-align:center;
+list-style: none;
+clear: both;
+padding-top: 50px;
+color: #fff;
+max-width: auto;
+border-top: 10px solid grey;}
+
+.social-icon {  display: inline;
+  width: 20px;
+  height:20px;
+  margin: 0 5px; }
+
+.copyright{padding: 50px;}
+
+  /***************************************   COLOR  ***************************************/
+
+    /* site body */
+  body {background-color: #fff;
+    color: #grey;}
+
+  /* nav background */
+  nav {background: #010236;
+    border-bottom: 10px solid grey;}
+
+  /* selected nav link color */
+  nav a.selected {background-color: white;
+    color: #010236;}
+
+ nav a:visited {color: #010236;}
+
+  nav a:hover {background-color: orange;
+  color:white;
+  transition: .8s background-color;}
+
+/******************* responsive design *********************************************/
+
+/*************************************************  images  ************************/
+img {max-width: 100%;}
+
+#images {margin: 0;
+  padding: 0;
+  list-style: none;}
+
+#gallery img {float: left;
+    margin: auto;
+    padding: 2% 1% ;
+    max-width: 17.2%;
+    list-style: none}
+
+  #profiles img {clear: both;
+        margin: auto;
+        padding:4% 2% ;
+        max-width: 100%;
+        background-color: white;
+        list-style: none}
+
+  #profiles p { font-weight: 900;
+      font-size: 2em;
+      color: #010236;
+      padding:1% 1% ;
+      max-width: auto%;
+      list-style: none;}
+
+
+
+#wrapper2 {  max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding:0;}
+
+/******************************************************************** JOIN PAGE
+*********************************************************************************/
+#wrapper3 {  max-width: 1200px;
+      margin: 0 auto;
+      background: ;
+      padding:10px;}
+
+#wrapper3 p { text-align: justify;
+      font-weight:600;
+      color: #FF6A00;
+      padding:0;}
+
+#forms {font-size: 1.5em;}
+
+#forms p {font-size:1.6em;}
+
+#form1 {float: left;
+      max-width: 40%;}
+
+#form2 {float: right;
+    max-width: 40%;}
+
+#buttons button { font-size: 1.3em;
+  background-color: #FF6A00;
+color: #fff; }
+
+
+/********************************** contact page *************/
+.contact-info {list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;}
+
+  .phone:before{
+      content: url('../images/phone-32.png');
+      margin: 20px;  }
+
+  .mail:before{
+      content: url('../images/email-32.png');
+      margin: 20px;  }
+
+  .twitter:before{
+      content: url('../images/twitter-32.png');
+      margin: 20px;  }
+
+  .facebook:before{
+      content: url('../images/facebook-32.png');
+      margin: 20px; }
+
+  .contact-info li img {margin-left:50px;
+    padding: 50px;
+    max-width: 10px;
+    max-height: 10px;  }
+
+  #primary {float: left;
+    max-width: 50%;
+    font-size: 1.5em;}
+  #secondary {float: right;
+    font-size: 1.5em;}
+
+/******************* responsive design *********************************************/
